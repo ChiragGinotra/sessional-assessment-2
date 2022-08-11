@@ -97,6 +97,10 @@
   margin-top: 9.6rem;
 }
 
+.sticky .logo {
+  filter: opacity(1) drop-shadow(0 0 0 #ffffff);
+}
+
 /**************************/
 /* HERO SECTION */
 /**************************/
@@ -124,18 +128,19 @@
 
 .hero-img-box {
   /* height: 100%;
-  width: 100%; */
+  width: 100%;
   height: 65vh;
-  /* height: 100%;
+  height: 100%;
   width: 100%; */
   border-radius: 5%;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2); */
 }
 
 .hero-img {
   width: 100%;
-  height: 65vh;
+  /* height: 65vh; */
   border-radius: 5%;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
   /* height: 100%; */
 }
 
