@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Person Management System</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="CSS/query.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/general.css" />
+    <script defer src="JS/script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img
+          class="logo"
+          alt="logo"
+          src="assets/logo/personDataManageLogo.png"
+        />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#data">Data center</a></li>
+          <li><a class="main-nav-link" href="#table">Table Form</a></li>
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#about">Contact</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#about">Sign Up / Log In</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">
+            An API that isn't comprehensible isn't usable.
+          </h1>
+          <p class="hero-description">
+            The smart 365-days-per-year subscription that give you an access to
+            use amazing extra features, that can definetly make the
+            unsubscribers jealous.😎
+          </p>
+          <a href="#data" class="btn btn--full margin-right-sm"
+            >Start using things</a
+          >
+          <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+
+          <div class="delivered-meals">
+            <div class="delivered-imgs">
+              <img src="assets/customers/customer-1.jpg" alt="Customer photo" />
+              <img src="assets/customers/customer-2.jpg" alt="Customer photo" />
+              <img src="assets/customers/customer-3.jpg" alt="Customer photo" />
+              <img src="assets/customers/customer-4.jpg" alt="Customer photo" />
+              <img src="assets/customers/customer-5.jpg" alt="Customer photo" />
+              <img src="assets/customers/customer-6.jpg" alt="Customer photo" />
+            </div>
+
+            <p class="delivered-text">
+              <span>25,000+</span> persons data recorded!
+            </p>
+          </div>
+        </div>
+        <div class="hero-img-box">
+          <picture>
+            <img
+              src="assets/hero-section/hero-section.jpg"
+              class="hero-img"
+              alt="Discussion on some data going on with positive energy"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-blog" id="data">
+      <div class="container blog">
+        <div class="blog-header">
+          <h1 class="heading-secondary center-text">
+            Person Management System
+          </h1>
+
+          <p class="blog-subheading center-text">
+            Click below button to see the persons details
+          </p>
+
+          <div class="show-btn">
+            <button class="btn-og btn--full">Click here</button>
+          </div>
+        </div>
+
+        <div class="persons"></div>
+      </div>
+    </section>
+
+    <section class="section-table" id="table">
+      <div class="container table">
+        <div class="table-header">
+          <h2 class="subheading center-text">Table Form</h2>
+
+          <p class="blog-subheading center-text">
+            Click below button to see the persons data in
+            <span>table form</span>
+          </p>
+
+          <div class="show-table-btn">
+            <button class="btn-og btn--full">Tap here</button>
+          </div>
+        </div>
+
+        <div class="table"></div>
+      </div>
+    </section>
+
+    <section class="section-how" id="how">
+      <div class="container">
+        <h2 class="subheading center-text margin-bottom-md">How it works</h2>
+
+        <p class="blog-subheading center-text">
+          API stands for Application Programming Interface. In the context of
+          APIs, the word Application refers to any software with a distinct
+          function. Interface can be thought of as a contract of service between
+          two applications. This contract defines how the two communicate with
+          each other using requests and responses.
+        </p>
+
+        <p class="blog-subheading center-text">
+          API architecture is usually explained in terms of client and server.
+          The application sending the request is called the client, and the
+          application sending the response is called the server. So in the
+          weather example, the bureau’s weather database is the server, and the
+          mobile app is the client.
+        </p>
+
+        <p class="blog-subheading center-text">
+          There are four different ways that APIs can work depending on when and
+          why they were created.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer" id="about">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img
+              class="footer-logo"
+              alt="logo"
+              src="assets/logo/personDataManageLogo.png"
+            />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2027 by API, Inc. All rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              Chitkara University (NH-64) Punjab-140 401,India
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">999-999-9999</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >hello@api.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About API</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#"> partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">W3Schools</a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
