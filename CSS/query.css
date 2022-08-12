@@ -72,6 +72,28 @@
     width: 60%;
   }
 
+  #persons {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #persons div {
+    /* font-size: 1.2rem; */
+    height: 300px;
+  }
+
+  .table-primary {
+    font-size: 1.4rem;
+  }
+
+  th {
+    font-size: 1.6rem;
+  }
+
+  th,
+  td {
+    padding: 1.6rem;
+  }
+
   /* .hero-img-box {
     width: 60%;
   } */
@@ -182,6 +204,28 @@
     grid-column: span 2;
     margin-bottom: 3.2rem;
   }
+
+  #persons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #persons div {
+    /* font-size: 0.9rem; */
+    height: 250px;
+  }
+
+  .table-primary {
+    font-size: 1.25rem;
+  }
+
+  th {
+    font-size: 1.4rem;
+  }
+
+  th,
+  td {
+    padding: 1.4rem;
+  }
 }
 
 /**************************/
@@ -215,6 +259,32 @@
 
   .hero-img {
     width: 80%;
+  }
+
+  #persons {
+    grid-template-columns: 1fr;
+  }
+
+  #persons div {
+    /* font-size: 0.9rem; */
+    height: 250px;
+  }
+
+  #persons div ul {
+    align-items: center;
+  }
+
+  .table-primary {
+    font-size: 1rem;
+  }
+
+  th {
+    font-size: 1.2rem;
+  }
+
+  th,
+  td {
+    padding: 0.7rem;
   }
 }
 
